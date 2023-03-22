@@ -1,0 +1,23 @@
+
+<div class="container col-md-8">
+    <h1>Wow. You gonna taste {{product.productName}}</h1>
+    <div >
+      <ul class="list-group">
+        <li class="list-group-item list-group-item-primary">Food Name     : {{product.productName}} </li>
+        <li class="list-group-item list-group-item-danger">Food Price    : ${{product.price}}</li>
+        <li class="list-group-item list-group-item-info">Food Type     : {{product.productType}}</li>
+        <li class="list-group-item list-group-item-primary">Food Category : {{product.productCategory}} </li>
+        <br>
+        <form>
+          <div class="form-group">
+            <label for="card">Enter DEBIT/ CREDIT</label>
+            <input type="text" class="form-control" id="card"  placeholder="1234-1234-1234-1234"><br>
+            <label for="cardname">Enter name on the Card</label>
+            <input type="text" class="form-control" id="cardname"  placeholder="an*******dh"><br>
+            <label for="ccv">Enter CCV</label>
+            <input type="text" class="form-control" id="ccv"  placeholder="Enter CCV"><br>
+          </div>
+        </form>
+      </ul><br></div>
+      <button type="button" class="btn btn-primary btn-lg btn-block" (click)="confirmOrder()"> Make Payment    </button>
+</div>

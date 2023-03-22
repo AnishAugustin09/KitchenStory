@@ -1,0 +1,28 @@
+<div class="container col-md-6">
+    <h2>Add product</h2><hr>
+<form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <label for="ProductName">ProductName</label>
+        <input type="text" name="ProductName" id="ProductName" placeholder="Enter Product" class="form-control" [(ngModel)]="product.productName">
+    </div>
+    <div class="form-group">
+        <label for="ProductType">ProductType</label>
+        <input type="text" name="ProductType" id="ProductType" placeholder="Enter Product Type" class="form-control" [(ngModel)]="product.productType">
+    </div>
+    <div class="form-group">
+        <label for="ProductCategory">ProductCategory</label>
+        <input type="text" name="ProductCategory" id="ProductCategory" placeholder="Enter Product Category" class="form-control" [(ngModel)]="product.productCategory">
+    </div>
+    <div class="form-group">
+        <label for="price">Price</label>
+        <input type="text" name="price" id="price" placeholder="Enter Product Type" class="form-control" [(ngModel)]="product.price">
+    </div>
+    <div class="form-group">
+        <label for="origin">origin</label>
+        <input type="text" name="origin" id="origin" placeholder="Enter Product Category" class="form-control" [(ngModel)]="product.origin">
+    </div>
+    <br>
+    <button class="btn btn-primary" >Add</button>
+
+</form>
+</div>

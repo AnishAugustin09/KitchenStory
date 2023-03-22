@@ -1,0 +1,26 @@
+<div class="container">
+<h4>Products</h4><hr>
+<table class="table table-bodered table-striped">
+    <thead>
+        <tr>
+            <th>Id</th><th>Name</th><th>Type</th><th>Category</th><th>Country</th><th>Price</th><th>Operation</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let p of product">
+            <td>{{p.id}}</td>
+            <td>{{p.productName}}</td>
+            <td>{{p.productType}}</td>
+            <td>{{p.productCategory}}</td>
+            <td>{{p.origin}}</td>
+            <td>${{p.price}}</td>
+            
+            <td>
+                <div class="d-inline">
+                    <button class="btn btn-danger" (click)="deleteProduct(p.id)" type="button">Delete</button>
+                  </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>

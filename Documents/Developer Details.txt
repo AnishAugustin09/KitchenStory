@@ -1,0 +1,9 @@
+DEVELOPER DETAILS:
+
+Project Name : Kitchen Story
+
+Application Name : Kitchen Story APPLICATION
+
+Developer Name : Anish Augustin C
+
+Github link: https://github.com/AnishAugustin09/KitchenStory

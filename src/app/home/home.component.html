@@ -1,0 +1,16 @@
+
+
+<div class="container">
+  <h2><em>Let's have a Delicious Food, Order Now</em> </h2><hr>
+  <div class="row row-cols-1 row-cols-md-4 g-0">
+  <div class="card" style="width: 15rem;"  *ngFor="let p of product">
+    <img class="card-img-top" src="/assets/images/new.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h4 class="card-title">{{p.productName}}</h4>
+      <p class="card-text"><em>Delicious {{p.origin}} food is waiting for you at </em>  <del>199</del> ${{p.price}}</p>
+      <a routerLink="/product/{{p.id}}" class="btn btn-primary">Buy for ${{p.price}} </a>
+    </div>
+  </div>
+  </div>
+</div>
+
