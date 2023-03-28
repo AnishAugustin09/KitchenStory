@@ -1,4 +1,4 @@
-# KitchenStory
+# KitchenStory - Use Admin id : admin@123 || password: 121212, Code is available in Master Branch
 Kitchen Story is an e-commerce portal that lets people shop  basic food items on their website. The website needs to have the following features:
 
      
@@ -9,4 +9,4 @@ Based on item details entered, it will show available food items with  price.
 
 Once a person selects an item to purchase, they will be redirected to the list of available items. In the next page, they are shown the complete breakout of the order and details of the payment to be made in the payment gateway. When payment is done, they are shown a confirmation page with details of the order.
 
-Use Admin id : admin@123 || password: 121212, Code is available in Master Branch
+
